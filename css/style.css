@@ -1,0 +1,184 @@
+@charset "utf-8";
+/*公共*/
+*{margin:0;padding:0;}
+body{background: url(../img/body.jpg);text-align:center;font:12px/2 arial,\5b8b\4f53;outline:0;height:100%;overflow:auto;}
+a,button{color:#333; text-decoration:none;blr:expression(this.onFocus=this.blur());}
+a:hover{color:#F63;}
+button{cursor:pointer;}
+img{border:0;}
+.left .rspan,.right .rspan{ width:30%; display:inline-block; text-align:right}
+
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{ width:100%;border-collapse:collapse;border-spacing:0;}
+th{font-weight:normal;}
+li,td,h2,h3.songlist,a{list-style:none;text-overflow:clip;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+mark{ background:none}
+header h1,nav,.sleft,.sright,.left,.right,#slide,.notify,.singer a,.youlian,.hezuo,.Sglist ul,.songnew li,.ralbum li,.songlist ul,.lleft,.rright,#lrc,#txt{display:-moz-inline-stack;display:inline-block;zoom:1;*display:inline;vertical-align:top;}
+
+/*头部*/
+header{width:100%;height:66px;padding-top:13px;margin:auto;
+background: url(../img/head.jpg);
+}
+header h1{width:100px;padding-right:6px;vertical-align:middle;}
+header nav{width:810px;margin:8px auto auto 42px;}
+header nav a{width:97px;float:left;display:inline-block;font:14px/32px "Microsoft Yahei";color:#545454;margin-right:3px;}
+nav a.now,header nav a:hover{background:url(../img/aHover.jpg);color:#fff;text-decoration:none}
+
+/*搜索*/
+.search{width:964px;margin:2px auto;}
+.sleft{height:36px;padding-top:12px;color:#666;vertical-align:middle; position:relative;}
+.search strong{color: #E98305}
+.search .txt,.search button{width:280px; margin-left:68px;padding:8px 0 7px 5px; color:#666;border:solid 1px #ccc;vertical-align:middle;}
+.search button{width:64px;height:32px; margin-left:-5px; font-size:0; text-indent:-999px;background: url(../img/search.png) no-repeat  center #eee;}
+.eng_list{ display:inline-block;background:#fff; left:62px;cursor:pointer;z-index:9; position:absolute}
+.eng_list li,.eng_list mark{width:55px;padding:3px 5px 4px 2px;display:inline-block;border:1px solid #ccc;background:url(../img/search_icon_bg.png) no-repeat 49px 12px}
+.eng_list li{display:none; background:none;border-top:0; }
+.eng_list .sogm{display:block}
+.sright{width:42%; margin-left:15px;text-align:right;vertical-align:middle;}
+.sright a{margin-left:5px;}
+
+/*登录窗口*/
+#dlbody{position:absolute;z-index:999;top:0;left:0;float:left;background:#000}
+#div2{width:326px;height:230px;*height:237px;position:absolute;z-index:9999;top:32%;left:38%;background:#fff}
+#dlogin{width:300px;position:absolute;z-index:99999;top:32%;left:38%;margin:13px;background:#fff}
+#dlogin h3,#dlogin .closs{width:80%;border:0;background:#eee;float:left}
+#dlogin .closs{width:14.5%;height:40px;line-height:40px}
+#dlogin input{width:50%;margin:5px}
+.input1,.input2{padding:5px;background:#fafafa;border:solid 1px #41b3c7}
+.input2{background:#fff;border:solid 1px #f96}
+.mybutton{padding:8px 10px}
+#dlogin b{ display:inline-block;width:17%; text-align:right; vertical-align:middle;}
+/*首页栏目*/
+.singer,.notify,.rnotify,.bg,.show,.hot,.Sglist ul,.songnew,.songlist,.so,.ralbum{background:white;border:1px solid #ccc;}
+h2,h3{ padding:8px; border-top:solid 1px #fff;font-size:14px;border-bottom:1px solid #CDCDCD; background:#eee; vertical-align:middle}
+h2 span,h3 span{width:35px;height:33px;margin:auto 5px;display:inline-block;vertical-align:middle}
+.h20{background:url(../img/icon4.png) no-repeat center;}
+.h21{background:url(../img/icon9.jpg) no-repeat center;}
+.h30{background:url(../img/icon1.jpg) no-repeat center;}
+.h31{background:url(../img/icon2.jpg) no-repeat center;}
+.h32{background:url(../img/icon3.jpg) no-repeat center;}
+.h33{background:url(../img/icon8.jpg) no-repeat center;}
+.h34{background:url(../img/icon10.jpg) no-repeat center;}
+
+.ahm,.adw,.axz{ display:inline-block;width:24px; height:24px;*line-height:0;font-size:0;}
+.ahm{background:url(../img/lyric.gif) no-repeat center;}
+.adw{background:url(../img/icon6.jpg) no-repeat center;}
+.axz{background:url(../img/icon7.jpg) no-repeat center;}
+
+
+.left,.right,.lleft,.rright{ width:732px;text-align:left;margin:auto;margin:0px 2px;}
+.right{ width:225px;}
+#slide{ width:435px; height:295px;padding-top:15px;border:solid 1px #CDCDCD;background:#fff;margin-bottom:5px;float:left;text-align:center;}
+.notify,.rnotify{width:285px;height:310px;float:right}
+.rnotify{width:225px;}
+.notify li,.rnotify li{ width:85%;margin:auto;display:block;padding:3px 0  3px 16px; background:url(../img/point.jpg) no-repeat left;}
+
+/*歌手推荐*/
+.singer{clear:both}
+.singer a{width:118px;width:*116px;padding:4px 0;text-align:center;}
+.singer a:hover{background:#f1f1f1;color:#FF6633}
+/*注册登录*/
+.loginB a{display:block;height:46px;margin-bottom:12px; font-size:0;}
+.loginB .login{background: url(../img/login.jpg);}
+.loginB .reg{background: url(../img/reg.jpg);}
+
+/*优秀会员*/
+.red{ color:#FF3333; font-weight:bold}
+.hot{margin-bottom:5px}
+.hot li{width:97%; margin:auto; padding:2px 0;border-bottom:1px dotted #B7B7B7;}
+.hot li a,.hot li span{ width:55%;display:inline-block}
+.hot .gs{ width:33%;color:#999;}
+.hot li span{width:14%;text-align:center;font-size:14px}
+.mtop li a{ width:75%;display:inline-block;text-align:center}
+
+/*歌词列表*/
+.bg{ width:728px;*width:730px;}
+.bg a{ color:#06F;}
+.bg a:hover{ color:#F63;}
+.bg th{ background:#f5f5f5;text-align:center;}
+.bg tr{ border-bottom:1px dashed #eee; line-height:32px; text-align:center;}
+.bg .gm{ padding-left:10px; text-align:left}
+
+/*搜歌页*/
+.Sglist ul{ width:310px;*width:312px;margin:5px;}
+.Sglist ul li{ width:90%; margin:auto;padding:3px 0}
+.Sglist li:hover{ background:#99CCFF}
+.so{ width:960px; margin:auto;font-size:14px}
+.so span{width:30%; float:right;font-weight:normal}
+.so ul{text-align:left; border-bottom:dashed 1px #6C0; padding:8px; margin:15px}
+.so a{ color:#0D5E99}
+.so .gc{background:#f5f5f5; display:block; font-size:12px; line-height:20px; border:dashed 1px #ccc; padding:10px}
+.so b,.red{ color:red;}
+.so .ck{ color:#F63}
+
+/*音乐推荐*/
+.songnew,.songlist{width:920px;margin:auto; background:url(../img/mark.jpg) no-repeat #fff; padding:5px 20px; text-align:left}
+.songnew ul{ width:95%; margin:auto; text-align:center;}
+.songnew h2,.songlist h3{padding:0;background:none; border:0}
+.songnew h2 a,.songlist h3 a{ float:right;font-weight:normal; font-size:12px}
+.songnew li{ width:19%; margin:5px auto 10px auto;}
+.songnew .name{display:block; font-size:14px;line-height:26px;color:#2D64B3;}
+
+.songlist{ margin:10px auto;}
+.songlist ul{ width:32%;padding-right:7px;*padding-right:9px;margin:10px auto;border-right:1px solid #eee}
+.songlist h3,.songlist ul li{width:75%;margin:0 auto;border-top:1px dashed #eee}
+.songlist h3{border:0; font:16px/28px "Microsoft YaHei";background:url(../img/hot.gif) no-repeat 152px 7px}
+.songlist mark,.songlist .song,.songlist .singer,.songlist .play{ width:10%;font-size:12px;display:inline-block; vertical-align:middle}
+.songlist .song{ width:58%; color:#2D64B3;font-size:14px; font-weight:normal}
+.songlist .singer{ border:0;width:24%;color:#666;}
+.songlist .play{ width:9%; height:20px;background:url(../img/plus.jpg) no-repeat center left}
+
+/*歌词专辑*/
+.ralbum li{ width:24%;padding:3px 0; text-align:center}
+
+/*歌词内容页*/
+.dh{ width:950px;color:#888; display:block;margin:auto;text-align:left;}
+.dh a{color:#00A0B0;text-decoration:none}
+.dh strong a{ color:#888; font-weight:normal}
+.lleft{width:302px;}
+.profile,.downl{border:solid 1px #ccc;background:#fff;}
+.profile h1{font-size:14px;color:#FF6633;border-bottom:1px solid #bbb; padding:10px 5px}
+.profile b{ display:inline-block; width:30%;font-weight:normal; color:#333}
+.profile li{ width:90%;margin:auto; line-height:30px;border-bottom:1px dotted #BBB; color:#555}
+
+.rright{ width:655px;}
+.downl{padding:13px 5px;}
+.downl a{display:inline-block;padding:1px 8px;vertical-align:middle;color:#2C76C0;border-right: 1px solid #ccc;}
+.downl a img{margin-right:8px;vertical-align:middle;}
+.downl .bc{ border:0}
+
+#lrc,#txt{width:326px;*width:328px;background:#fcfcfc;border:solid 1px #ccc;border-top:0;}
+#lrc{margin-left:-5px}
+#lrc h2,#txt h2{padding-left:8px;color:#555;}
+.rright mark{color:#0096FF;}
+#lrc p,#txt p{ margin:10px;line-height:22px;}
+
+/*文章*/
+.show{ text-align:center; background:#fafafa}
+.show time,.show em{ font-weight:normal; font-size:12px;}
+.show em{margin-left:30px}
+.show article{ padding:10px}
+
+/*页码*/
+.page{padding:5px;margin:5px; text-align:center; clear:both}
+.page a,.page span,.page a:hover{background:#eee;width:32px; border:solid 1px #51AECF;height:26px;display:inline-block; line-height:26px; margin:3px;font-size:14px}
+.page span,.page a:hover{background:#51AECF;color:#fff;padding:0px; float:none}
+.page a:hover{ text-decoration:none}
+
+/*友情链接*/
+.link{ width:924px;margin:5px auto 10px auto; padding:15px; text-align:left; background:#F1F1F1; border:1px solid #ddd}
+.link p{ font-weight:bolder}
+.link a{ margin:3px;display:inline-block}
+.youlian{ width:60%;}
+.hezuo{ width:38%;}
+
+.tj{ display:none;}
+/*广告*/
+#ad960,#ad962,#ad300{position:relative; width:970px;padding:3px;text-align:center;border:solid 1px #ccc; clear:both;background:#ffffff; margin:0 auto 5px auto}
+#ad300{width:300px; height:250px; margin-top:5px;}
+#adyxj{width:336px; height:280px;bottom:2px;right:1px!important;right:18px;position:fixed;}
+*html{overflow-x:auto;overflow-y:auto;} 
+*html #adyxj{position:absolute;}
+/*底部*/
+footer{ margin:auto; width:100%;text-align:center; background:#fafafa; padding:10px auto; border-top:1px solid #e3e3e3;line-height:24px;}

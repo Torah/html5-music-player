@@ -1,21 +1,21 @@
 [{
-  "name":"匆匆那年",
-  "composer":"李玉刚",
-  "lyrics":"林夕",
-  "singer":"王菲",
-  "album":"匆匆那年",
-  "type":"电影《匆匆那年》主题曲",
-  "cover":"demo/res/ccnn/0e2442a7d933c8953ee45510d21373f0830200c7.jpg",
-  "link_url":"demo/res/ccnn/匆匆那年.mp3",
-  "link_lrc":"demo/res/ccnn/匆匆那年.lrc"
+	"name":"邓丽君 - 花心(日语老歌)",
+	"singer":"邓丽君",
+	"composer":"",
+	"lyrics":"",
+	"album":"",
+	"type":"",
+	"cover":"",
+	"link_url":"demo/res/邓丽君 - 花心(日语老歌)/邓丽君 - 花心(日语老歌).mp3",
+	"link_lrc":"demo/res/邓丽君 - 花心(日语老歌)/邓丽君 - 花心(日语老歌).lrc"
 },{
-  "name":"沧浪之歌",
-  "composer":"黄勇",
-  "lyrics":"汪峰",
-  "singer":"汪峰",
-  "album":"老男孩之猛龙过江 电影原声",
-  "type":"电影《狼图腾》中文主题曲",
-  "cover":"demo/res/clzg/faf2b2119313b07eed2459bc0fd7912396dd8cec.jpg",
-  "link_url":"demo/res/clzg/沧浪之歌.mp3",
-  "link_lrc":"demo/res/clzg/沧浪之歌.lrc"
+	"name":"邓丽君-夜来香~日本语ヴァージョン",
+	"singer":"邓丽君",
+	"composer":"",
+	"lyrics":"",
+	"album":"",
+	"type":"",
+	"cover":"",
+	"link_url":"demo/res/邓丽君-夜来香~日本语ヴァージョン/邓丽君-夜来香~日本语ヴァージョン.mp3",
+	"link_lrc":"demo/res/邓丽君-夜来香~日本语ヴァージョン/邓丽君-夜来香~日本语ヴァージョン.lrc"
 }]
